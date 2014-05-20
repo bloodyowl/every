@@ -1,0 +1,35 @@
+{
+  "name": "bloody-every",
+  "version": "0.0.0",
+  "description": "timer",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bloodyowl/every.git"
+  },
+  "author": "bloodyowl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloodyowl/every/issues"
+  },
+  "homepage": "https://github.com/bloodyowl/every",
+  "devDependencies": {
+    "tape": "^2.13.1"
+  },
+  "testling": {
+    "files": "test/**.js",
+    "browsers": [
+      "ie/7..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/6..latest",
+      "opera/11.0..latest",
+      "iphone/6..latest",
+      "ipad/6..latest",
+      "android-browser/latest"
+    ]
+  }
+}
